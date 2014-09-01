@@ -1,0 +1,25 @@
+{
+  "name": "2014-jon",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node engine/run.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "watch": "^0.11.0",
+    "stylus": "^0.48.1",
+    "yaml-front-matter": "^3.0.1",
+    "jade": "^1.6.0",
+    "es6-promise": "^1.0.0",
+    "connect": "^3.1.1",
+    "livereload": "^0.3.4",
+    "glob": "^4.0.5",
+    "markdown-to-json": "^0.4.2",
+    "marked": "^0.3.2",
+    "watch-glob": "^0.1.3"
+  }
+}

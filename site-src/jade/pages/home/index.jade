@@ -1,0 +1,7 @@
+extends ../../layouts/home-template
+block content
+  h1 #{global.siteName}
+
+  each post, index in metaData
+    a(href="#{post.basename}.html")
+      h1 #{post.title}
