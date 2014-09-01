@@ -1,13 +1,17 @@
 {
-  "name": "2014-jon",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "engine-run",
+  "version": "0.0.1",
+  "description": "Little blogging engine",
+  "main": "engine/run.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jonsherrard/engine-run.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node engine/run.js"
   },
-  "author": "",
+  "author": "Jon Sherrard <j@andthats.it>",
   "license": "ISC",
   "dependencies": {
     "watch": "^0.11.0",
